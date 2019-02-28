@@ -1,6 +1,7 @@
 # Characters
 
 ## Francis
+
 | | | | | | |  
 | --- | --- | --- | --- | --- | --- |  
 | **Strong** | 4 | **Fast**| 3 | **Smart** | 2 |   
@@ -26,7 +27,7 @@ ___
  * Big clown shoes
  * Very good at distracting
 
- ### Special Things
+### Special Things
 *  **Seltzer Bottle** [ ] - [ ] - [ ] - [ ] - [ ]  
 
 &nbsp;  
@@ -37,6 +38,7 @@ ___
 
 
 ## Francis Freeport
+
 | Skills | | | | | |  
 | --- | --- | --- | --- | --- | --- |  
 | **Str** | 3 | **Int**| 1 | **Dex** | 1 |   
