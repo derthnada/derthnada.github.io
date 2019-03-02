@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-# Mystery Creation Engine
+# Jef
+
+![Jef](assets/jef_profile_pic.jpg)
 
 Rectifying my anemic web presence with roleplaying game nonsense, technical noise, and the occasional philosophical absurdity.
 
