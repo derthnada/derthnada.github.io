@@ -2,7 +2,7 @@
 layout: post
 title:  "SAMM 2019 Characters"
 date:   2019-02-28 16:48:53 -0500
-categories: samm rpg
+categories: [samm, rpg]
 ---
 # Characters
 
