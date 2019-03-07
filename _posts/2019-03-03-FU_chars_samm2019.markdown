@@ -1,0 +1,116 @@
+---
+layout: post
+title:  "FU(ish) Characters"
+date:   2019-03-03 17:13:53 -0500
+categories: [rpg]
+tags: [rpg, solo, samm2019]
+---
+
+# Korvar
+
+Half-orc druid with a serene demeanor, deep, resonant voice, and gentle soul...too gentle for the orc tribe that raised him and trained him in their war shaman tradition. After being cast out for his distasteful penchant for peacemaking, he briefly trained as a cleric in the human tradition, but found them more subtly barbarous than his orcs. Now he has returned to the wilderness, an exiled wanderer, seeking spiritual balance and understanding.
+
+
+**Attribute**: `serene demeanor`
+ - [] [] `sonorous voice`
+ - [] [] `counselor`
+
+**Background**: `half-orc`
+ - [] [] `between two worlds`
+ - [] [] `strength in body`
+  
+**Role**: `druid`
+ - [] [] `strength in spirit`
+ - [] [] `war shaman`
+ - [] [] `self-taught healer`
+  
+**Trademark**: `exiled wanderer`
+ - [] [] `the land sustains me`
+ - [] [] `never really lost`
+
+#### Gear
+
+He carries an `ever-budding staff` that is equal parts weapon and spiritual focus, along with `leather armor`, various `herbs and medicines`. The rest he has trusted for nature to provide.
+
+#### Hits
+
+[] [] [] [] [] [] [] [] [] []
+
+#### Traumas & Conditions
+
+___
+
+# Liam
+
+Former knight who once held a small keep that he'd inherited from his parents after they passed from an abrupt illness. A young man with a natural knack for leadership and impressive talent with the sword, he easily gained the loyalty of the handful of farmers and artisans he'd grown up with and now comprised his modest holding. Unfortunately, his own liege was a petty tyrant, prone to making more trouble with his neighbors than he could justify. Liam and his men were rallied and sent to fight in some vain battle, in which many of his men were lost. He returned to find his keep bargained out from under him in a cowardly political gambit, and his name slandered amongst the local nobles. With no other choice, he set out into the world alone, attempting to make his way as a mercenary, and nursing his bitter resentment of nobility and plans for revenge.
+
+**Attribute**: `natural leader`
+ - [] [] `memory for names & faces`
+ - [] [] `inspiring presence`
+
+**Background**: `former knight`
+ - [] [] `honor is from within, not from an oath`
+ - [] [] `courtly etiquette`
+ - [] [] `equestrian prowess`
+  
+**Role**: `talented swordsman`
+ - [] [] `everyone has a tell`
+ - [] [] `exceptional balance`
+  
+**Trademark**: `bitter resentment towards nobility`
+ - [] [] `fight for the underdog`
+ - [] [] `reluctant understanding of politics`
+
+### Gear
+
+He carries his `family sword and shield`, `chain armor`, and the remaining `camping supplies` and `rations` from his last, fateful sortie. 
+
+#### Hits
+
+[] [] [] [] [] [] [] [] [] []
+
+#### Traumas & Conditions
+
+___
+
+# Zachary Pockets
+
+City orphan that fell into the all-to-common fate as street rat and petty thief, Pockets endured a childhood of bullying, malnutrition, and countless near-captures by the city guard. His almost preternatural agility eventually earned him some small notoriety as a second-story kid, but he all to often saw his cut of the treasures he stole siphoned off by greedy and abusive theiving cadre masters. For solace, he took to hiding in the ever-shadowed rafters of the mage's college. Soon, he realized that even clumsily mimicking the words and gestures of the teachers and students...actually produced results! He seemed to have a special knack for illusions and some of the simpler mind-bending manipulation magics, pulling off in an evening what what took some dedicated students months to grasp. For the first time, Pockets felt the dark thrill of power, and sensed a path by which he might finally rise above his tormentors and become the one pressing _their_ faces into the shit for a change. One night, he descended from the rafters, stole the first spellbook he could find, and disappeared into the wilds to follow in the footsteps of this "Bargle," the renegate wizard that the students spoke of in voices hushed with fear. Someday...someday it would be _his_ name they whispered.
+
+**Attribute**: `gift of wild magic`
+ - [] [] `talent for illusion & mind magics`
+ - [] [] `untrained power`
+
+**Background**: `orphaned street rat`
+ - [] [] `hiding is second nature`
+ - [] [] `vicious when cornered`
+ - [] [] `underworld contacts`
+  
+**Role**: `theif/illusionist`
+ - [] [] `monkey-like agility`
+ - [] [] `use their fear against them`
+ - [] [] `pick locks & pockets`
+  
+**Trademark**: `power hungry`
+ - [] [] `never be bullied again`
+ - [] [] `manipulation`
+
+### Gear
+
+Carries two `bone shivs`, his prized `stolen spellbook`, `trusty lockpicks`, `ratty street clothes`, some bread, and a few pilfered coins.
+
+#### Hits
+
+[] [] [] [] [] [] [] [] [] []
+
+#### Traumas & Conditions
+
+# The Group
+
+As a group, the characters find comraderie in their status as exiles, and all share a distrust to outright hostility towards unearned authority...whether that authority derives from the meaningless claims of bloodline, the inertia of tradition, or abuse of the weak. They have wildly varying upbringings, worldviews, and goals, however.
+
+The even-keeled Korvar sees suffering in the souls of his two young compatriots, and seeks to help them find their way...while conflicted by the knowledge that he has still not yet found his own. He sees an old soul in Liam, and his sense of purpose brings a welcome sense of direction to the group. Pockets is a bitter teen, but with a great gift...he must tread carefully with that one.
+
+Liam welcomes the company of two talented, if unproven adventurers, although he hides a sharp anxiety that he might be leading them to the same doom he lead his other unseasoned fighters and friends to not even a year ago. They seem to listen to him, though...maybe he can keep them alive long enough to turn them into a fellowship that will not only survive, but even make a difference in this gods-forsaken world.
+
+As adept as Pockets was at surviving on the streets, he was poorly equipped to handle life in the wild. He is secretly thankful to Korvar for taking him under his wing, and can't help but feel a little in awe of Liam's easy self-assuredness. They must never know these things, however. To express them would be to show an easily exploitable weakness. It will only be a matter of time until they turn on him, of course, just like everyone else in his life has. But in the meantime, they very well might become useful tools to help him achieve his goals...if he can learn to control them.
