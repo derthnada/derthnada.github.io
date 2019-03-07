@@ -18,7 +18,7 @@ I wanted to lay out a few notes about the approach I intend to take with my firs
 
 I am interested in experiencing a classic, old-school module through the lens of a modern, story-first system...and then see what dousing the whole thing with oracles and other solo tools will do to it. My money is on violent conflagration! 
 
- ## The Tools I'm Gonna Use (Probably)
+## The Tools I'm Gonna Use (Probably)
 
 Like many solo roleplayers, I have wrestled with the best way to go about capturing a record of play as it happens. I've never been concerned about sharing any of it until now, so brief, cryptic scribblings on paper have so far been sufficient to jog my memory, keep my place in the story, and relive past adventures. 
 
@@ -36,7 +36,7 @@ I've been a long-time fan of Nathan Russell's [Freeform Universal](http://freefo
 
  The one concern I have about this version of the system is that the dice mechanics rely more heavily on the _number_ of dice in the pool than most iterations do. The number of descriptors that provide these dice remains fairly low to start, and I'm preemptively worried about...well, things I probably shouldn't be. Nevertheless, I am going to follow the lead of a FU community member, and bolt on another of Nathan's hacks, [trademarks and meta-tags](http://freeformuniversal.com/introducing-trademarks-meta-tags/). In addition to providing more raw dice, it also allows me to elaborate a bit more on what exactly "druid" or "orphaned street rat" actually mean, and help define a path for advancement right out of the gate.
 
- ## The Module I'm Gonna Use (Probably)
+## The Module I'm Gonna Use (Probably)
 
 I chose the venerable [Keep on the Borderlands](https://www.drivethrurpg.com/product/17158/B2-The-Keep-on-the-Borderlands-Basic). 
 
