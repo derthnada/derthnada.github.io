@@ -7,7 +7,8 @@ tags: [rpg, solo, samm2019]
 ---
 ![B2](/assets/keepbanner.png)
 
-# Let's Get Started!
+
+## Let's Get Started!
 
 I wanted to lay out a few notes about the approach I intend to take with my first-ever **#SoloAModule** event, and enumerate some presuppositions that may provide some context to this whole mess. 
 
