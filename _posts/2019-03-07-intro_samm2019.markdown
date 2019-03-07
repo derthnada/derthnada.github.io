@@ -5,6 +5,7 @@ date:   2019-03-07 14:16:00 -0500
 categories: [rpg]
 tags: [rpg, solo, samm2019]
 ---
+![B2](/assets/keepbanner.png)
 
 # Let's Get Started!
 
