@@ -1,0 +1,183 @@
+---
+layout: post
+title:  "Chaos on the Borderlands - Session 1"
+date:   2019-03-12 18:44:55
+categories: [rpg]
+tags: [rpg, solo, samm2019]
+---
+
+# Scene 1 - Ambushers Ambushed. A New Enemy.
+
+### The Raider camp, a day's march from the keep.
+
+[Characters](2019-03-06-FU_chars_samm2019.markdown)
+[Scratchpad](2019-03-13-scratchpad.markdown)
+
+Korvar crouched in the dark underbrush at the edge of the clearing. After a moment, he held up 3 fingers for the benefit of those behind him. Liam could see little past the half-orc save for the flickering light of the campfire that silhouetted Korvar's raised hand, but there was no doubt this was a bandit camp of some kind. "Three of them, three of us," he thought. He glanced at the thin boy kneeling to his right, tense and sweating, and revised his reckoning. "Three of them, two of us...plus change." Still manageable odds, as long as they had the element of surprise. He didn't relish the idea of attacking the camp outright, but he liked the prospect of being surprised later by these ruffians in their own camp even less. The bodies of the two young travellers they had encountered just down the main road made it clear what kind of men they were dealing with...and how they must be dealt with. 
+
+> *Question: do they keep the element of surprise?*  
+> *Oracle: no*  
+
+Suddenly, a light flared and voice boomed out of the trees to his right. "Well, well, well! Do my eyes deceive me? Hey brothers!" he called to the campers, laughing, "our dinner party has arrived early! I do hope you've set out the best porcelain!" A lantern held by a man beside the speaker harshly illuminated the three heroes now, as well as this, the obvious leader of these bandits. 
+
+```
+Let's give this guy some personality. I make a few rolls in Covetous Poet, 
+and get "former adventurer" and "flamboyant." Interesting...
+```
+
+The leader was dressed in a strange combination of practical leathers and ostentatious and mismatched court wear, and stood in a confident, almost casual pose.
+
+### Raiders
+
+| Enemy | Tags | Hits | Wounds | Conditions |
+| ---|---|---|---|---|
+| (camp) | `spear and leather` | O O O O O O | n/a | |
+| (camp)| `spear and leather` | O O O O O O  | n/a |  |
+| (lantern)| `spear and leather` | O O O O  O O | n/a |  |
+| (camp) | `bow and dagger` | O O O O O O | n/a |  |
+| (camp) | `bow and dagger` | O O O O O O | n/a |  |
+| Leader | `former adventurer` `murderous greed` `flamboyant` `rapier` `leather armor` | O O O O O O O O | O |  |
+
+
+Liam could hear excited chattering from the camp as the remaining bandits came to investigate. This was bad. They were outnumbered, had lost their biggest advantage, and were being flanked now, to boot. He grabbed the kid they called Pockets and pulled him behind him. It was a brave gesture, but Liam was certain that he was just as scared as the kid.
+
+Suddenly, the warm, deep, friendly voice of Korvar poured out into the chilly night air. "Ah, we've found you at last! We've been searching all over." He strolled lazily to stand beside Liam.  "We've been sent to offer you and your fellows terms from the Keep, whereby you might be absolved of your crimes, _and_ become legitimate sheriffs of the realm."
+
+> *Question: Does his bluff work? `calm demeanor` vs `murderous greed`*  
+> *Oracle: no, but*  
+
+```
+Guess it's time to leave some of the fancy narration behind, 
+get into the present tense, and get down to action!
+```
+
+After a brief silence, the leader laughs, which gives Korvar a moment to cast a spell to thicken the density of the underbrush between them and the 4 bandits from the camp
+
+> *Question: Does Korvar's spell create an impediment to the bandits? `druid` `war shaman` vs. `long duration` `affects multiple targets`*  
+> *Oracle: nope*  
+
+Korvar's casting is interrupted by a shout from Liam. A bandit from the camp is lining up a bow shot at the druid. 
+
+> *Question: can Liam intercede to protect him? `shield` `former knight` vs `bow`*  
+> *Oracle: yes*  
+
+Arrow clangs off his shield. Liam shouts for somebody to do something about those bowmen as he turns to engage the leader and his lackey. 
+
+Pockets' first instinct is to hide. As he looks for a suitable tree, he stops himself. "This is it. This is adventure. You're not a helpless kid on the streets anymore. It's destiny time." All the finer points of are magic washed away in panic and confusion, though. So he reaches for the fear that burns brightly within him, and hurls it, raw, at the bowmen. 
+
+> *Question: Does Pockets infect the bowmen with his fear? `gift of wild magic` `illusionist` vs. `multiple targets`*  
+> *Oracle: yes but*  
+
+One of the bowmen lets out a startled cry, and flees unceremoniously across camp and into the trees beyond. The other stares after him, puzzled. Oblivious, the front two bandits charge Korvar and Pockets, spears raised above their heads to attack. 
+
+> *Question: Does Pockets dodge? `street rat` `theif` `monkey-like agility` vs. `spear`*  
+> *Oracle: yes and*  
+
+The weapon is high, so he goes low, rolling into the legs of the onrushing bandit, who falls face first over him with a grunt. Immediately, Pockets is scrambling on him...
+
+> *Question: Attack `street rat` `thief` `bone shivs` `face planted` vs. `leather`*  
+> *Oracle: yes but, 4 damage*  
+
+...his bone shivs plunging wildly and repeatedly into his back. Korvar sees that Pockets is so `intent on his work`, however, that he fails to notice the bowman moving up angling for a shot at his exposed back. But before Korvar can even call out a warning, his own enemy is upon him, stabbing wildly from above.
+
+ > *Question: Can Korvar quickly muster enough sympathetic energy with the wood of the spear shaft to turn the blow aside? `druid` `war shaman` vs. `spear` `rushed`*  
+ > *Oracle: yes*  
+
+ The spearhead thrusts into the earth next to Korvar, and Korvar strikes the bandit with his staff.
+
+ > *Question: Attack `druid` `war shaman` `half-orc (strength)` vs `leather`*  
+ > *Oracle: yes but, 6 damage*  
+
+ The butt of his staff crunches straight up into the man's jaw, and he tumbles aside in a lifeless heap. Korvar's rushed sympathy spell with the wood of the spear was not properly tied off, however. The spear attempts to mimic Korvar's strike and clocks Korvar in the elbow, setting off his `funny bone`.
+
+Meanwhile, the bandit leader has drawn his rapier and squares off with Liam. The lantern-wielding spearman searches comically for a place to hang the lantern. Liam can tell the leader has some real experience, so attempts to distract him by mocking his "torn" pantaloons.
+
+ > *Question: Does the bandit leader fall for the ruse? `bitter resentment towards nobility` (knows how to insult them) `flamboyant` vs `murderous greed` `former adventurer`*  
+ > *Oracle: yes*  
+
+Liam strikes his `distracted` enemy!
+
+ > *Question: Attack: `talented swordsman` `family sword` `distracted` vs `former adventurer` `leather armor`*  
+ > *Oracle: yes but, 5 damage*  
+
+ His aim is true. But the spearman has given up and tossed his lantern down, and comes at Liam from the side!
+
+ > *Question: Defense: `talented swordsman` `shield` `chain armor` vs `spear`*  
+ > *Oracle: yes*  
+
+ Liam spins to bring his shield to bear, knocking the blow aside, and instinctively counter strikes.
+
+ > *Question: Attack: `swordsman` `sword` vs `leather`*  
+ > *Oracle: yes, 4 dmg*  
+
+Liam's blade plunges through the man's leather jerkin, and he falls back against a tree, clutching the wound.
+
+Meanwhile, the bowman finally has a clear line of sight on Pockets and draws. 
+
+> *Question: Can Korvar hurl the enchanted spear before he gets off his shot? `druid` `war shaman` vs `rushed` `difficult` `funny bone`*  
+> *Oracle: yes but*   
+
+The spear careens wildly, but not forcefully, into the the bow, and the shot goes wild. The bandit curses and turns his murderous gaze on Korvar. He stalks forward, nocking another arrow and shoots at him.
+
+> *Question: Defend: `leather armor` vs. `bow`*  
+> *Oracle: no but, 1 dmg*  
+
+The arrow whizzes past, too close for comfort. The bandit draws and fires again, and again,  still moving forward. Korvar is `on his heels`, trying desperately just to avoid the arrows.
+
+> *Question: Defend: `leather armor` vs. `bow` `on his heels`*  
+> *Oracle: yes but*  
+
+Korvar manages to avoid behing hit, but the man is relentless. A few yards away, he throws down his bow, and draws a pair of nasty looking daggers from his belt and lunges. Korvar grabs a handful of dirt and dead leaves, and throws them in the bandit's face as he rolls out of the way.
+
+> *Question: Defend: `leather armor` `dirt in the eyes trick` vs. `daggers` `oh his heels`*  
+> *Oracle: yes*  
+
+The man sputters and Korvar gets to his feet, staff readied.
+
+> *Question: Meanwhile, has Pockets managed to dispatch his foe? `street rat` `thief` `bone shivs` `face planted` vs. `leather`*  
+> *Oracle: yes, 5 dmg*  
+
+The bandit soon stops struggling beneath Pockets' frantic onslaught of strikes. Pockets turns his blood spattered face up, and sees Korvar's dilemma. Without thinking, he pads quietly across the space between his dead bandit and the back of Korvar's attacker.
+
+> *Question: Does he sneak up? `theif` vs.... nothing?*  
+> *Oracle: automatic yes but*  
+
+Korvar sees the once-panicked bowman returning to the fray behind Pockets. Pockets strikes
+
+> *Question: Attack: `street rat` `theif` `bone shivs` `backstab` vs. `leather`*  
+> *Oracle: yes and, 5 dmg*  
+
+He leaps onto the unsuspecting bandit's back, hooking both shivs into him and riding him into the ground. The arrow meant for him whizzes overhead harmlessly. Korvar points his staff at the bowman and unleashes a stream of flying thorns.
+
+> *Question: Attack: `druid` `war shaman` vs `leather`*  
+> *Oracle: yes and, 6 dmg*  
+
+The bandit screams as the thorns rip through his flesh, tearing off bits and leaving his corpse bleeding messily at the edge of the clearing.
+
+The bandit leader and Liam have been circling, trading feints and jabs, and both have become aware of the way the battle is going. Liam locked eyes with him. "Surrender," he growled.
+
+> *Question: Does he surrender? `natural leader` `talented swordsman` `we just slaughtered your only backup` vs. `murderous greed`*  
+> *Oracle: yes but*  
+
+```
+I had to turn to the oracles on this one. I drew a couple GM's Apprentice cards,
+and got "hunters are hunted," "Detect Precise Tool," and a Skull, which represents
+impending doom. I think we just created a new enemy with his own thread. Time to give 
+him a name. GM's Apprentice gives me Reece.
+```
+
+The bandit leader dropped his rapier and raised his hands. "It seems that my brethren and I have been bested." He gave a shallow bow. "What are your terms?"
+
+"Terms?" Liam repeated, somewhat taken aback. "We are not nobility." The bandit's eyes flicked to Liam's shield for a moment, meaningfully. Liam flushed. "Not..._anymore._ The terms are: you get to live until we turn you over to the authorities at the keep. After that...." He shrugged. 
+
+The bandit seemed to consider this, his hand dropping to finger a bauble on a necklace absently. "Agreed." The camera zooms to the bauble, which glows momentarily with an ominous magical light.
+
+> New Thread: Reece's rescuer...Reece's revenge.
+
+## Session Post-mortem
+
+My concern about number of dice being too low was misguided. I forgot that the PCs automatically get a free power die when attempting anything, so this ended up being a much easier fight than I'd anticipated. Nevertheless, I'm very glad I decided to use the sub-tags FU hack, anyway. Even the sub-tags that didn't provide bonus dice were _very_ helpful guidelines to determining when a tag was relevant.
+
+I ran this session typing everything in markdown as I went. This approach was pretty effective, not terribly intrusive, faster than writing, and didn't leave me with a lot of post-session editing to do. 
+
+On the downside, I couldn't help the tendency to edit as I went, which was a major impediment to flow. Tracking the blow-by-blow was tedious, as well, so I think I may be less verbose with the system details going forward...just play out a few rounds, and then capture the results. The biggest downer by far, though, was that I was stuck on a computer. I work all day staring at a computer, so the prospect of spending my leisure time doing the same was measurably off-putting. So, my next scene, I'm going to experiment with speech-to-text to capture the raw session and formatting it later. 
