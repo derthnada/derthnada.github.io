@@ -8,8 +8,8 @@ tags: [rpg, solo, samm2019]
 ---
 
 # Threads
-- Get to the keep, get settled, get some work
-- Reece's rescuer...Reece's revenge ([Scene 1](2019-03-12-session_1_samm2019.markdown))
+- Get to the Keep, Get Settled, Get Busy
+- Reece's Rescuer...Reece's Revenge _(from [Scene 1](/samm2019/session_1)_)
 
 # Korvar
 
