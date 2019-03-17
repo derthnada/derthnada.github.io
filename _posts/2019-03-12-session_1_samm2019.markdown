@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Chaos on the Borderlands - Session 1"
+permalink: "/samm2019/session_1"
 date:   2019-03-12 18:44:55
 categories: [rpg]
 tags: [rpg, solo, samm2019]
@@ -10,8 +11,8 @@ tags: [rpg, solo, samm2019]
 
 ### The Raider camp, a day's march from the keep.
 
-[Characters](2019-03-06-FU_chars_samm2019.markdown)
-[Scratchpad](2019-03-13-scratchpad.markdown)
+[Characters](/samm2019/characters)  
+[Scratchpad](/samm2019/scratchpad)
 
 Korvar crouched in the dark underbrush at the edge of the clearing. After a moment, he held up 3 fingers for the benefit of those behind him. Liam could see little past the half-orc save for the flickering light of the campfire that silhouetted Korvar's raised hand, but there was no doubt this was a bandit camp of some kind. "Three of them, three of us," he thought. He glanced at the thin boy kneeling to his right, tense and sweating, and revised his reckoning. "Three of them, two of us...plus change." Still manageable odds, as long as they had the element of surprise. He didn't relish the idea of attacking the camp outright, but he liked the prospect of being surprised later by these ruffians in their own camp even less. The bodies of the two young travellers they had encountered just down the main road made it clear what kind of men they were dealing with...and how they must be dealt with. 
 

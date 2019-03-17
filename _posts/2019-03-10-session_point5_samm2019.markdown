@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Chaos on the Borderlands - Session 0.5"
+permalink: "/samm2019/session_point5"
 date:   2019-03-10 16:15:53 -0500
 categories: [rpg]
 tags: [rpg, solo, samm2019]

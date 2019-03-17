@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "FU(ish) Characters"
+permalink: "/samm2019/characters"
 date:   2019-03-06 17:13:53 -0500
 categories: [rpg]
 tags: [rpg, solo, samm2019]

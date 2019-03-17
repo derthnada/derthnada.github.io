@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Scratchpad"
+permalink: "/samm2019/scratchpad"
 date:   2019-03-13 09:07:26
 categories: [rpg]
 tags: [rpg, solo, samm2019]

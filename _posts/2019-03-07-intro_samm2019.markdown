@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "#SoloAModule 2019, the Front Matter"
+permalink: "/samm2019/front"
 date:   2019-03-07 14:16:00 -0500
 categories: [rpg]
 tags: [rpg, solo, samm2019]
