@@ -3,14 +3,30 @@
 <head>
     <script src="https://miro.com/app/static/sdk.1.1.js"></script>
     <script>
+	function roll() {
+	let retval = "";
+	let t = 0;
+	for (let i=0; i< 4; i++){
+		let x = Math.floor(Math.random() * 3 - 1);
+		t += x;
+		retval += " " + x;
+	}
+	return retval += "\
+\
+	" + t;
+}
     miro.onReady(() => {
       miro.initialize({
         extensionPoints: {
           bottomBar: {
-            title: 'Some title',
+            title: 'Roll 4df',
             svgIcon: '<circle cx="12" cy="12" r="9" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"/>',
             onClick: () => {
-              alert('Hi!')
+              const waitOneSec = () => new Promise(r => setTimeout(r, 2000))
+		let sticker = (await miro.board.widgets.create({type:'sticker', text: roll()}))[0]
+		await miro.board.viewport.zoomToObject(sticker)
+		await waitOneSec() // timeout only for demo purpose
+		await miro.board.widgets.deleteById(sticker.id) // delete sticker
             }
           }
         }
