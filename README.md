@@ -1,1 +1,0 @@
-# derthnada.github.io
