@@ -28,7 +28,7 @@
         	return BI.currentUserContext.user.name;
 	}
 
-	async createSticker(uname) {
+	async function createSticker(uname) {
 		let resp = await miro.board.widgets.create({type:'sticker', text: uname});
                 return resp[0];
 	}
