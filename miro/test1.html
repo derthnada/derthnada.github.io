@@ -23,10 +23,14 @@
 		//await waitASec(); // timeout only for demo purpose
 		//await miro.board.widgets.deleteById(sticker.id); // delete sticker
 	}
+	
+	async function getUname() {
+		let BI = await window.miro.board.getInfo();
+        	return BI.currentUserContext.user.name;
+	}
 
     miro.onReady(() => {
-	let BI = await window.miro.board.getInfo();
-	let uname = BI.currentUserContext.user.name;
+	let uname = getUname();
       miro.initialize({
         extensionPoints: {
           toolbar: {
