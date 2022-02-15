@@ -26,6 +26,7 @@
 	
 	async function getUname() {
 		let BI = await window.miro.board.getInfo();
+		console.log(BI);
         	return BI.currentUserContext.user.name;
 	}
 
