@@ -15,36 +15,29 @@
 	return retval += "\n" + total;
 	}
 
-	async function doRoll(uname,mysticker) {
-		mysticker.text = uname + "\n" + roll();
-		await miro.board.viewport.zoomToObject(sticker);
+	async function doRoll(userSticker) {
+		userSticker.mysticker.text = userSticker.uname + "\n" + roll();
+		await miro.board.viewport.zoomToObject(userSticker.mysticker);
 		//await waitASec(); // timeout only for demo purpose
 		//await miro.board.widgets.deleteById(sticker.id); // delete sticker
 	}
 	
-	async function getUname() {
+	async function initUserSticker() {
 		let BI = await window.miro.board.getInfo();
-		console.log(BI);
-        	return BI.currentUserContext.user.name;
-	}
-
-	async function createSticker(uname) {
 		let resp = await miro.board.widgets.create({type:'sticker', text: uname});
-                return resp[0];
+        	return {uname: BI.currentUserContext.user.name, mysticker: resp[0]};
 	}
 
     miro.onReady(() => {
-	let uname = "wtf"
-	let mysticker = null;
-	getUname().then(v => {uname = v});
-	createSticker().then(v => {mysticker = v});
+	let userSticker = null; 
+	initUserSticker().then(v => {userSticker = v});
       miro.initialize({
         extensionPoints: {
           toolbar: {
             title: 'Roll 4df',
             toolbarSvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
             librarySvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
-            onClick: () => {doRoll(uname,mysticker)}
+            onClick: () => {doRoll(userSticker)}
           }
         }
       })
