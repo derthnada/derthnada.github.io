@@ -24,7 +24,7 @@
 	
 	async function initUserSticker() {
 		let BI = await window.miro.board.getInfo();
-		let resp = await miro.board.widgets.create({type:'sticker', text: uname});
+		let resp = await miro.board.widgets.create({type:'sticker', text: BI.currentUserContext.user.name + "\n Rolls"});
         	return {uname: BI.currentUserContext.user.name, mysticker: resp[0]};
 	}
 
