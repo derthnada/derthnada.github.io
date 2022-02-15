@@ -31,7 +31,8 @@
 	}
 
     miro.onReady(() => {
-	let uname = getUname();
+	let uname = "wtf"
+	getUname().then(v => {uname = v;}
       miro.initialize({
         extensionPoints: {
           toolbar: {
