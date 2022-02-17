@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://miro.com/app/static/sdk.1.1.js"></script>
+    <script>
+    const waitOneSec = () => new Promise(r => setTimeout(r, 2000));
+	function roll() {
+	let retval = "";
+	let total = 0;
+	let faces = ["-","0","+"];
+	for (let i=0; i< 4; i++){
+		let x = Math.floor(Math.random() * 3);
+		retval += " " + faces[x];
+		total += (x - 1);
+	}
+	return retval += "\n-------\n" + total;
+	}
+
+	async function doRoll(userSticker) {
+		//userSticker.mysticker.text = userSticker.uname + "\n" + roll();
+		let vp = await miro.board.viewport.get();
+		await miro.board.widgets.update({id:userSticker.mysticker.id, text: userSticker.uname + "\n" + roll()});
+		await miro.board.viewport.zoomToObject(userSticker.mysticker);
+		await waitOneSec(); // timeout only for demo purpose
+		await miro.board.viewport.set(vp); // delete sticker
+	}
+	
+	async function initUserSticker() {
+		let BI = await window.miro.board.getInfo();
+		let resp = await miro.board.widgets.create({type:'sticker', text: BI.currentUserContext.user.name.split(" ")[0] + "\n Rolls"});
+        return {uname: BI.currentUserContext.user.name.split(" ")[0], mysticker: resp[0]};
+	}
+
+    miro.onReady(() => {
+	let userSticker = null; 
+	initUserSticker().then(v => {userSticker = v; console.log(userSticker)});
+	
+      miro.initialize({
+        extensionPoints: {
+          toolbar: {
+            title: 'Roll 4df',
+            toolbarSvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
+            librarySvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
+            onClick: () => {doRoll(userSticker)}
+          }
+        }
+      })
+    })
+    </script>
+</head>
+</html>
