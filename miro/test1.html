@@ -3,6 +3,7 @@
 <head>
     <script src="https://miro.com/app/static/sdk.1.1.js"></script>
     <script>
+    const waitOneSec = () => new Promise(r => setTimeout(r, 2000));
 	function roll() {
 	let retval = "";
 	let total = 0;
@@ -12,25 +13,28 @@
 		retval += " " + faces[x];
 		total += (x - 1);
 	}
-	return retval += "\n" + total;
+	return retval += "\n-------\n" + total;
 	}
 
 	async function doRoll(userSticker) {
-		userSticker.mysticker.text = userSticker.uname + "\n" + roll();
+		//userSticker.mysticker.text = userSticker.uname + "\n" + roll();
+		let vp = await miro.board.viewport.get();
+		await miro.board.widgets.update({id:userSticker.mysticker.id, text: userSticker.uname + "\n" + roll()});
 		await miro.board.viewport.zoomToObject(userSticker.mysticker);
-		//await waitASec(); // timeout only for demo purpose
-		//await miro.board.widgets.deleteById(sticker.id); // delete sticker
+		await waitOneSec(); // timeout only for demo purpose
+		await miro.board.viewport.set(vp); // delete sticker
 	}
 	
 	async function initUserSticker() {
 		let BI = await window.miro.board.getInfo();
-		let resp = await miro.board.widgets.create({type:'sticker', text: BI.currentUserContext.user.name + "\n Rolls"});
-        	return {uname: BI.currentUserContext.user.name, mysticker: resp[0]};
+		let resp = await miro.board.widgets.create({type:'sticker', text: BI.currentUserContext.user.name.split(" ")[0] + "\n Rolls"});
+        return {uname: BI.currentUserContext.user.name.split(" ")[0], mysticker: resp[0]};
 	}
 
     miro.onReady(() => {
 	let userSticker = null; 
-	initUserSticker().then(v => {userSticker = v});
+	initUserSticker().then(v => {userSticker = v; console.log(userSticker)});
+	
       miro.initialize({
         extensionPoints: {
           toolbar: {
