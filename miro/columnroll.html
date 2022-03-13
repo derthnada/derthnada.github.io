@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://miro.com/app/static/sdk.1.1.js"></script>
+    <script>
+    const waitOneSec = () => new Promise(r => setTimeout(r, 2000));
+    const MAX_RESULTS = 20;
+    const recentAtTop = true;
+
+
+	async function doInit() {
+		let BI = await window.miro.board.getInfo();
+		let name = BI.currentUserContext.user.name.split(" ")[0];
+		let frames = await window.miro.board.widgets.get({type: "frame", title: "Dice Rolls"});
+		console.log(frames);
+		let framewidgetids = frames[0].childrenIds;
+		let dbId = framewidgetids[0];
+		let db = await window.miro.board.widgets.get({id: dbId});
+		db = db[0];
+		let initText = db.text.length > 0 ? db.text : "Roll Results<br />";
+		await miro.board.widgets.update({id:dbId, text: initText});
+
+		console.log(db);	
+        return {myname: name, diceBox: db};
+	}
+
+
+	async function doRoll(userInfo) {
+		let dbnow = await window.miro.board.widgets.get({id: userInfo.diceBox.id});
+		dbnow = dbnow[0];
+		console.log(dbnow);
+		
+		// get current roll text, strip bold tags, parse as array
+		let resultsRaw = dbnow.text.replaceAll(/<\/*b>/g, '');
+		let results = resultsRaw.split("<br />");
+		
+		if (recentAtTop) {
+			// unshift new roll into the front of the array
+			results.unshift("<b>" + userInfo.myname + ": " + roll() + "</b>");
+			
+			// if array length > MAX_RESULTS, shift off the oldest
+			if(results.length > MAX_RESULTS) {
+				results.pop();
+			}
+		} else {
+			// push new roll on the end
+			results.push("<b>" + userInfo.myname + ": " + roll() + "</b>");
+			
+			// if array length > MAX_RESULTS, shift off the oldest
+			if(results.length > MAX_RESULTS) {
+				results.shift();
+			}
+		}
+		
+		let resultsText = results.join("<br />");
+		
+		await miro.board.widgets.update({id:userInfo.diceBox.id, text: resultsText});
+		/*
+		let vp = await miro.board.viewport.get();
+		await miro.board.viewport.zoomToObject(userInfo.diceBox);
+		await waitOneSec(); 
+		await miro.board.viewport.set(vp); 
+		*/
+	}
+	
+	function roll() {
+		let retval = "";
+		let total = 0;
+		let faces = ["-"," ","+"];
+		for (let i=0; i< 4; i++){
+			let x = Math.floor(Math.random() * 3);
+			retval += " [" + faces[x] + "]";
+			total += (x - 1);
+		}
+		return retval += " = " + total;
+	}
+
+
+    miro.onReady(() => {
+	let userInfo = null; 
+	doInit().then(v => {userInfo = v; console.log(userInfo)});
+	
+      miro.initialize({
+        extensionPoints: {
+          toolbar: {
+            title: 'Roll 4df',
+            toolbarSvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
+            librarySvgIcon: '<rect fill="none" stroke="blue" ry="3" stroke-width="3" width="20" height="20" x="2" y="2"></rect><line x1="12" x2="12" y1="6" y2="18" stroke="blue"></line><line x1="6" x2="18" y1="12" y2="12" stroke="blue"></line>',
+            onClick: () => {doRoll(userInfo)}
+          }
+        }
+      })
+    })
+    </script>
+</head>
+</html>
